@@ -8,11 +8,14 @@
     justify-content: space-around;
     align-items: center;
     background: white;
-    min-width: 20%;
+    width: 30%;
 }
 
 .image {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    border-radius: 5%;
+    width: 80%;
+}
+
+.ingredients {
+    width: 90%;
 }

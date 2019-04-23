@@ -1,3 +1,7 @@
+# React Recipe App
+This is a very simple web ap developed using React which can be used to serch food recipes.
+I used edamam (www.edamam.com) API to fetch data.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

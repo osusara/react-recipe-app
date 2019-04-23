@@ -5,13 +5,17 @@ const Recipe = (props) => {
     return(
         <div className={styles.recipe}>
             <h1>{props.title}</h1>
-            <p>{props.calories}</p>
+            <p>Calories: {props.calories}</p>
             <img className={styles.image} src={props.image} alt="Food" />
-            <ul>
-                {props.ingredients.map(ingredient => (
-                    <li>{ingredient.text}</li>
-                ))}
-            </ul>
+
+            <div className={styles.ingredients}>
+            <h3>Ingredients</h3>
+                <ul>
+                    {props.ingredients.map(ingredient => (
+                        <li>{ingredient.text}</li>
+                    ))}
+                </ul>
+            </div>
 
         </div>
     );
